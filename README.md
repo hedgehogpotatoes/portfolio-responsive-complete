@@ -1,3 +1,13 @@
+
+ [CV Juliette] https://hedgehogpotatoes.github.io/portfolio-responsive-complete/
+
+
+
+
+
+
+
+
 # Portfolio Responsive Complete
 ## [Watch it on youtube](https://youtu.be/AKNvTxWOdKw)
 ### Portfolio Responsive Complete
