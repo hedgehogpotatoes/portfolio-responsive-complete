@@ -55,3 +55,23 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+
+
+/*===== NEW MENU TOGGLE SCRIPT =====*/
+document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.getElementById("nav-toggle");
+    const menu = document.getElementById("nav-menu");
+
+    if (toggle && menu) {
+        toggle.addEventListener("click", function () {
+            menu.classList.toggle("show-menu");
+        });
+
+        // Fermer le menu lorsqu'on clique sur un lien
+        document.querySelectorAll(".nav__link").forEach(link => {
+            link.addEventListener("click", () => {
+                menu.classList.remove("show-menu");
+            });
+        });
+    }
+});
