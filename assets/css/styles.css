@@ -122,8 +122,8 @@ img {
   align-items: center;
   font-weight: var(--font-semi);
 }
-/*
-@media screen and (max-width: 767px) { //V1
+
+@media screen and (max-width: 767px) { 
   .nav__menu {
     position: fixed;
     top: var(--header-height);
@@ -134,58 +134,9 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
-}*/
-
-@media screen and (max-width: 768px) { 
-    .nav__menu {
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: white;
-        width: 100%;
-        text-align: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 10px 0;
-    }
-
-    .nav__list {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .nav__toggle {
-        cursor: pointer;
-    }
 }
 
-/* Responsive pour mobile */
-/*
-@media screen and (max-width: 767px) { //V3/
-    .nav__menu {
-        position: fixed;
-        top: var(--header-height);
-        right: -100%;
-        width: 80%;
-        height: 100vh;
-        background-color: var(--second-color);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-        transition: right 0.4s ease-in-out;
-    }
 
-    .show-menu {
-        right: 0;
-    }
-
-    .nav__toggle {
-        display: block;
-    }
-}
-*/
 .nav__item {
   margin-bottom: var(--mb-4);
 }
@@ -209,27 +160,14 @@ img {
   color: var(--second-color);
 }
 
-.nav__toggle { /*v1*/
+.nav__toggle { 
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
-.nav__menu { /*v2*/
+.nav__menu { 
     display: none; /* Masqué par défaut sur mobile */
 }
-/* Styles du menu */ //v3
-/*
-.nav__menu {
-    display: flex;
-    gap: 1rem;
-}
-
-//Styles du bouton menu burger //v3
-.nav__toggle {
-    display: none;
-    font-size: 2rem;
-    cursor: pointer;
-}*/
 .nav__menu.show-menu { /*V2*/
     display: block; /* Affiche le menu quand on clique sur le bouton */
 }
