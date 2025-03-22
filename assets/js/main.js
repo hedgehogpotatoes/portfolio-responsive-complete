@@ -58,6 +58,7 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 
 
 /*===== NEW MENU TOGGLE SCRIPT =====*/
+/*
 document.addEventListener("DOMContentLoaded", function () {
     const toggle = document.getElementById("nav-toggle");
     const menu = document.getElementById("nav-menu");
@@ -75,3 +76,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+*/
