@@ -181,5 +181,21 @@
             </div>
             <p class="footer__copy">&#169; Juliette LING. Tous droits réservés</p>
         </footer>
-    </body>
+
+        <!-- Script pour le menu mobile -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const toggle = document.getElementById("nav-toggle");
+                const menu = document.getElementById("nav-menu");
+    
+                if (toggle && menu) {
+                    toggle.addEventListener("click", function () {
+                        menu.classList.toggle("show-menu");
+                    });
+                }
+            });
+    </script>
+
+        
+</body>
 </html>
