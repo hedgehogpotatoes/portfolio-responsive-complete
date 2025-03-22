@@ -134,9 +134,9 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
-}
+}*/
 
-@media screen and (max-width: 768px) { //V2
+@media screen and (max-width: 768px) { 
     .nav__menu {
         position: absolute;
         top: 60px;
@@ -157,10 +157,11 @@ img {
     .nav__toggle {
         cursor: pointer;
     }
-}*/
+}
 
 /* Responsive pour mobile */
-@media screen and (max-width: 767px) { /*V3*/
+/*
+@media screen and (max-width: 767px) { //V3/
     .nav__menu {
         position: fixed;
         top: var(--header-height);
@@ -184,7 +185,7 @@ img {
         display: block;
     }
 }
-
+*/
 .nav__item {
   margin-bottom: var(--mb-4);
 }
