@@ -181,6 +181,7 @@ img {
 .nav__logo {
   color: var(--second-color);
 }
+/*
 .nav__toggle {
   color: var(--second-color);
   font-size: 1.5rem;
@@ -188,6 +189,18 @@ img {
 }
 .nav__menu {
     display: none; /* Masqué par défaut sur mobile */
+}*/
+/* Styles du menu */
+.nav__menu {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Styles du bouton menu burger */
+.nav__toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
 }
 .nav__menu.show-menu {
     display: block; /* Affiche le menu quand on clique sur le bouton */
